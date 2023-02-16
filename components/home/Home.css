@@ -1,0 +1,55 @@
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    width: 101%;
+    background-color: rgb(204, 26, 26);
+    color: #f2f2f2;
+    display: flex;
+    padding: 20px;
+}
+
+
+.searchIcon{
+    margin-right: 20px;
+    margin-top: 7px;
+}
+
+.button-home{
+    position: absolute;
+    right: 0;
+}
+
+
+
+.cartcount{        
+ margin-top: -43px;
+margin-left: 1520px;
+color:cyan;
+}
+
+.reg-image-homepage{
+    margin-top: -25px;
+    margin-right: 55px;
+    vertical-align: top;
+    margin-left: 20px;
+}
+.login-image-homepage{
+    vertical-align: top;
+    margin-top: -30px;
+
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background:  #020202 0% 0% no-repeat padding-box;
+    color: white;
+    text-align: center;
+ font: normal normal medium 12px/15px Lato;
+
+}

@@ -1,0 +1,119 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.form-content {
+    min-height: calc(100% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+    margin: auto;
+}
+
+.form {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    opacity: 1;
+    width: 50%;
+    box-shadow: 0px 50px 90px #00000029;
+    padding: 0px 0px 20px 0px;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.form-head {
+   
+    font: normal normal bold 24px/35px Roboto;
+    font-family: 'Roboto', regular;
+    letter-spacing: 0px;
+    color: grey;
+    text-transform: capitalize;
+    opacity: 20px;
+    padding: 40px ;
+    background-color: skyblue;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+    margin-top: 0;
+}
+
+
+.cancel-button {
+    align-items: center;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    padding: 3px 0 0;
+    padding-left: 0px;
+    padding-top: 3px;
+    margin: auto 0 auto auto; 
+}
+.cancel-button a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-head {
+    display: flex;
+    flex-direction: row ;
+    padding: 0 40px;
+}
+
+.form-body {
+    padding: 10px 20px 30px 0px;
+}
+
+  .row-content {
+    margin-top:15px;
+    padding-bottom:0px;
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-left: 90px;
+    padding-right: 50px;
+  }
+  
+  .date{
+    margin-top:15px;
+    padding-bottom:30px;
+    margin-left: 9%;
+    margin-right: 4%;
+    padding-left: 90px;
+    padding-right: 412px;
+  }
+
+  .input-reg {
+    margin-top: 20px;
+    margin-right: 30px;
+    border-radius: 9px;
+  }
+  
+  .input-reg-date {
+    margin-top: 20px;
+    width: 209px;
+    border-radius: 9px;
+  }
+  
+  .button {
+    margin-top: 1px;
+    color: black;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 24%;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .link {
+    text-align: center;
+    padding: 5px;
+  }
+  
+  
